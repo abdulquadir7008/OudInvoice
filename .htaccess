@@ -1,0 +1,17 @@
+#AddType application/x-httpd-php5 .php
+#AddType application/x-httpd-php5 .php
+
+RewriteEngine On
+
+RewriteRule ^(login)\.php$ $1.php [L]
+RewriteRule ^(test_event)\.php$ $1.php [L]
+
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^(.*)$ pagenotfound.php [L]
+

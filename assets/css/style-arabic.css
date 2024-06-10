@@ -1,0 +1,42 @@
+.header,.page-header,.table{
+	direction: rtl;
+}
+.sidebar{
+	float: right;
+    right: 0;
+    left: auto;
+}
+.header-left, #toggle_btn{
+	float: right !important;
+}
+.user-menu{
+	float: left;
+}
+.page-wrapper{
+	margin-left: 0;
+	margin-right: 270px;
+}
+.page-title,input.srchcal{
+	text-align: right;
+}
+.flag-nav img {
+    margin-right: 5px;
+    margin-left: 8px;
+}
+.dropdown-menu.show {
+    text-align: right;
+}
+.table.arabic-table thead th, .table.arabic-table td{
+	text-align: center !important;
+}
+@media only screen and (max-width: 767.98px) {
+.sidebar{
+	float: left;
+    right:auto;
+    left: 0;
+}
+	.page-wrapper
+	{
+		margin-right: 0;
+	}
+}
